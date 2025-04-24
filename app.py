@@ -1,16 +1,16 @@
 import os
-import io
+# import io
 import json
-import html
+# import html
 import streamlit as st
 from google import genai  # Gemini API client
 from dotenv import load_dotenv  # Load .env
-from fpdf import (
-    FPDF,
-    HTMLMixin,
-    fpdf,
-)  # PDF generation with HTML support
-from mistletoe import markdown as md_to_html  # Markdown → HTML
+# from fpdf import (
+#     FPDF,
+#     HTMLMixin,
+#     fpdf,
+# )  # PDF generation with HTML support
+# from mistletoe import markdown as md_to_html  # Markdown → HTML
 from streamlit.components.v1 import html as st_html
 
 

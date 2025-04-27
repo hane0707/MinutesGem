@@ -104,7 +104,7 @@ with st.sidebar:
 st.title("【MinuteGem】")
 st.subheader("LLMによる議事録作成アプリ")
 
-st.caption("※研究用のため、特定のIPアドレスからのアクセスのみ許可しています。")
+st.caption("※研究用のため、特定のアカウントからのアクセスのみ許可しています。")
 st.caption("※LLMのリミットレートを超過した場合、使用不可となります。")
 
 transcript = st.text_area("文字起こしテキストを貼り付けてください", height=300)

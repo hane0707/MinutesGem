@@ -132,7 +132,7 @@ if st.button("議事録作成"):
             )
             try:
                 response = client.models.generate_content(
-                    model="gemini-2.5-pro-exp-03-25",
+                    model="gemini-2.0-pro-exp-02-05",
                     contents=[prompt],
                 )
                 minutes_md = response.text
